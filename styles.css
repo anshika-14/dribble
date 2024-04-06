@@ -1,0 +1,296 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Mona Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    
+}
+.one{
+    height: 8vh;
+    width: 100%;
+    /* background-color:aqua ; */
+    display: flex;
+    /* overflow-y: scroll; */
+
+   
+}
+.one>#one{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* gap: 18px; */
+    margin-top: 16px;
+    font-size: 15px;
+}
+.one>#one>a{
+    text-decoration: none;
+}
+.one>#one>a:hover{
+    cursor: pointer;
+}
+.one>#two{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 18px;
+
+
+}
+.one>#two>img{
+    width: 120px;
+}
+.one>#three{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 16px;
+
+}
+.one>#three>div>input{
+    height: 44px;
+    width: 250px;
+    margin-top: 10px;
+    border-radius: 50px;
+    background-color: hsl(240, 17%, 95%);
+    border: none;
+
+
+}
+.one>#three>button{
+    height: 3rem;
+    width: 6rem;
+    border-radius: 50px;
+    font-size: 14px;
+    background-color:#0d0c22;
+    color: white;
+    font-weight: bold;
+    border: none;
+}
+.one>#three>button:hover{
+    cursor: pointer;
+    opacity: 0.7;
+
+}
+.two{
+    /* margin-top: 100px; */
+    height: 8vh;
+    width: 100%;
+    /* position: fixed; */
+    position: sticky;
+    top: 0;
+    /* border: 1px solid white; */
+    background-color: white;
+    /* box-shadow: 0px 0px 1px rgb(177, 176, 176); */
+    
+}
+#para{
+    margin-left: 40px;
+    margin-top: 100px;
+}
+.two>div{
+    display: flex;
+    margin-top: 8px;
+    /* overflow: hidden; */
+    
+}
+.two>div>#image{
+    padding-left: 248px;
+    margin-top: 7px;
+    /* padding-top: 25px; */
+    
+}
+.two>div>#image>img{
+    border-radius: 100px;
+    
+}
+.two>div>nav{
+    /* padding-top: 30px; */
+    padding-left: 20px;
+}
+.two>div>#right{
+    margin-left: 480px;
+    height: 10vh;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    gap: 22px;
+
+}
+.two>div>#right>button:hover{
+    cursor: pointer;
+    opacity: 0.7;
+}
+.two>div>#right>svg{
+    height: 32px;
+    width: 32px;
+    border-radius: 100px;
+    border: 1px solid gray;
+    padding: 7px 7px 7px 7px;
+    
+    
+}
+#video{
+    margin-top: 30px;
+    height: 92vh;
+    width: 100%;
+    
+    border-radius: 10%;
+}
+.three{
+    margin-left: 150px;
+    height: 100vh;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 50px; */
+
+}
+
+.three>div{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: aqua; */
+}
+.three>div>p{
+    padding-top: 80px;
+   font-size: 20px;
+   line-height: 35px;
+   font-weight: 100;
+}
+.four{
+    height: 800vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgb(159, 159, 189); */
+}
+
+.four>#last{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+.four>#last>#first{
+    width: 65%;
+    
+    text-align: center;
+}
+.four>#last>div>img{
+    text-align: center;
+}
+.four>#last>div>p{
+    text-align: center;
+}
+
+.four>#last>button:hover{
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+
+.last{
+    height: 25vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.last>img{
+    height: 100px;
+    width: 130px;
+    margin-left: 50px;
+}
+.last>img:hover{
+    cursor: pointer;
+}
+.last>nav>svg{
+    height: 18px;
+    width: 18px;
+
+}
+.last>nav>svg:hover{
+    cursor: pointer;
+}
+.last>div{
+    height: 40%;
+    width: 55%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* margin-left: 100px; */
+    /* background-color: black; */
+}
+.last>div>a{
+    text-decoration: none;
+    color: rgb(47, 46, 46);
+    font-size: 14px;
+    font-weight: 600;
+    padding-left: 40px;
+
+
+}
+.last>div>a:hover{
+    cursor: pointer;
+}
+.last>nav{
+    height: 40%;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    
+}
+.end{
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    font-size: 14px;
+    color: rgb(120, 117, 117);
+    justify-content: space-between;
+
+    
+}
+.end>#one{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    padding-right: 240px;
+    gap: 25px;
+}
+.end>#one>a{
+    text-decoration: none;
+    color: rgb(120, 117, 117);
+}
+.end>#one>a:hover{
+    cursor: pointer;
+}
+.end>#two{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    padding-left: 100px;
+}
+.end>#two>a{
+    text-decoration: none;
+    color: rgb(120, 117, 117);
+    
+}
+.end>#two>a:hover{
+    cursor: pointer;
+}
